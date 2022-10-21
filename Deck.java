@@ -28,7 +28,7 @@ public class Deck
 		
 		topCardIndex = 0; 
 		
-		
+		//THE ERROR IS IN THIS NESTED FOR LOOP. The ERROR shows "Multiple markers at this line Cannot instantiate the type Card Syntax error, insert ")" to complete" 
 		for (int i=0;i<NUMSUITS;i++){
 			for( int j=0; j<NUMFACES; j++) {
 				stackOfCards.add(new Card(j,SUITS[i]));
